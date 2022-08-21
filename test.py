@@ -12,7 +12,7 @@ chrome_options.add_argument('--blink-settings=videosEnabled=false')
 chrome_options.add_argument('--disable-blink-features=AutomationControlled')
 
 driver=uc.Chrome(options=chrome_options, use_subprocess=True)           #initialising Chrome object
-driver.get(f'https://aman9211-max.github.io/check-bot/')                #navigating to our testing webpage
+driver.get(f'https://aashishgarg-5555.github.io/bot_detect_bot/')                #navigating to our testing webpage
 #driver.get(f'http://127.0.0.1:5500/')
 action = ActionChains(driver)
 for x in range(1000):                           #running a maximum of 1000 instances of mousemove events via the bot
